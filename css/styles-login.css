@@ -1,0 +1,57 @@
+body, * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/*------------------------
+VIDEO - background
+------------------------*/
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+}
+/*------------------------
+FORM
+------------------------*/
+.container form {
+    letter-spacing: 1.5px;
+}
+
+.container .form-login {
+    position: absolute;
+	top: 25%;
+	left: 0;
+	right: 0;
+}
+/*------------------------
+FORM - Button
+------------------------*/
+.container form button {
+    background-image: linear-gradient(to right, #c00606, #d00034, #d6005d, #ce0089, #b500b5);
+}
+/*------------------------
+FORM - a
+------------------------*/
+.container form a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.5px;
+}
+/*------------------------
+FORMS : a:hover, i:hover
+------------------------*/
+.container form a:hover {
+    transition: all 1s ease;
+    letter-spacing: 5px;
+}
+
+.container form a i:hover {
+    -moz-transform: scale(1.3) rotate(360deg);
+    -webkit-transform: scale(1.3) rotate(360deg);
+    -o-transform: scale(1.3) rotate(360deg);
+    -ms-transform: scale(1.3) rotate(360deg);
+    transform: scale(1.3) rotate(360deg);
+    transition:all 1s ease;
+}
+
