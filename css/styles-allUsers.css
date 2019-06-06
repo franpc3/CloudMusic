@@ -101,6 +101,23 @@ USERS-TITLE
     letter-spacing: 5px;
     text-decoration: none;
 }
+
+.select-section {
+    color: white;
+    background-color: #1072D4;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.select-section a {
+    color: white;
+}
+
+.select-section a:hover {
+    color: white;
+    transition: all 1s ease;
+    letter-spacing: 5px;
+}
 /*----------------------------------
 LOCATIONS
 ----------------------------------*/
@@ -135,17 +152,36 @@ USERS
     font-size: .9rem;
 }
 
-.user-1 img {
+.users img {
     border-radius: 50%;
+}
+
+.users img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transition:all 0.5s ease;
+    transform: scale(1.1);
+    /*shadow*/
+    -webkit-box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.23);
+    box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.23);
 }
 
 .profile-details {
     font-size: .7rem;
 }
 
+.username {
+    letter-spacing: 1.5px;
+    color: #111;
+}
+
 button a {
     color: white!important;
     font-size: .7rem;
+    letter-spacing: 1.5px;
 }
 
 button a:hover {
