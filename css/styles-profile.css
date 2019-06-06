@@ -1,0 +1,718 @@
+body, * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/*---------------------------
+BANNER
+---------------------------*/
+.banner .photo-banner {
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+}
+/*---------------------------
+.PROFILE-PHOTO
+---------------------------*/
+.profile-photo img{
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	bottom: 52%;
+	left: 0;
+}
+/*---------------------------
+.NAME-PROFILE
+---------------------------*/
+span.name-profile {
+	position: absolute;
+	z-index: 1;
+	top: 22%;
+	left: 23%;
+	font-size: 2rem;
+	background-color: #111;
+	color: white;
+	letter-spacing: 1.5px;
+}
+/*---------------------------
+.NAME-PROFILE:hover
+---------------------------*/
+span.name-profile:hover {
+	transition: all 1s ease;
+    letter-spacing: 5px;
+}
+/*---------------------------
+.NATIONALITY-PROFILE
+---------------------------*/
+span.nationality-profile {
+	position: absolute;
+	z-index: 1;
+	top: 32%;
+	left: 23%;
+	font-size: 2rem;
+	background-color: #111;
+	color: white;
+	letter-spacing: 1.5px;
+}
+/*---------------------------
+.NATIONALITY-PROFILE:hover
+---------------------------*/
+span.nationality-profile:hover {
+	transition: all 1s ease;
+    letter-spacing: 5px;
+}
+/*---------------------------
+.DETAILS-PROFILE
+---------------------------*/
+span.details-profile {
+	text-transform: uppercase;
+	position: absolute;
+	z-index: 1;
+	top: 42%;
+	left: 23%;
+	font-size: .8rem;
+	color: #111;
+	letter-spacing: 1.5px;
+}
+/*---------------------------
+.SECTIONS-PROFILE
+---------------------------*/
+.sections-profile span {
+	letter-spacing: 1.5px;
+	color: #111;
+	font-weight: bold;
+}
+/*---------------------------
+.SECTIONS-PROFILE:hover
+---------------------------*/
+.sections-profile span:hover {
+	border-bottom: .1px solid #111;
+}
+/*---------------------------
+.FOLLOW-SHARE
+---------------------------*/
+.follow-share button a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1.5px;
+}
+
+.follow-share .share-button {
+	background-color: #111;
+}
+
+.follow-share .message-button {
+	background-color: #111;
+}
+/*---------------------------
+.ALBUMS
+---------------------------*/
+.albums {
+	font-weight: bold;
+	color: #111;
+	letter-spacing: 1.5px;
+	font-size: 1.4rem;
+}
+
+.album-details span {
+	font-weight: bold;
+	font-size: .9rem;
+	color: #111;
+	letter-spacing: 1.5px;
+}
+
+.album-details .artist {
+	font-size: .7rem;
+	color: #6B6D6E;
+	letter-spacing: 1.5px;
+}
+
+.albums-img img:hover {
+	cursor: pointer;
+    opacity: 0.8;
+    /*scale*/
+	-moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition:all .5s ease;
+}
+/*---------------------------
+.INFORMATION
+---------------------------*/
+.information-title {
+	font-weight: bold;
+	color: #111;
+	letter-spacing: 1.5px;
+	font-size: 1.4rem;
+}
+
+.information-content {
+	color: #111;
+	letter-spacing: 1.5px;
+	text-align: justify;
+}
+/*---------------------------
+FANS-INFORMATION
+---------------------------*/
+.fans-title {
+	font-weight: bold;
+	color: #111;
+	letter-spacing: 1.5px;
+	font-size: 1.4rem;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li .fans-country {
+	font-weight: bold;
+	color: #111;
+	letter-spacing: 1.5px;
+}
+
+ul li .number-listeners {
+	color: #6B6D6E;
+	letter-spacing: 1.5px;
+	font-size: .9rem;
+}
+/*----------------------------------
+FOOTER
+----------------------------------*/
+footer {
+    background-color: #ECEDEF;
+    position: sticky!important;
+}
+
+footer audio {
+    outline: none;
+}
+
+footer .footer-details {
+    font-size: .65rem;
+    letter-spacing: 1.5px;
+}
+
+
+footer .song-title {
+    color: #6B6D6E;
+}
+
+footer .song-name {
+    color: #111;
+}
+
+footer img {
+    opacity: 0.8;
+    background-color: #6B6D6E;
+}
+/*----------------------------------
+FOOTER: img.hover
+----------------------------------*/
+footer a img:hover {
+    opacity: 1;
+    -moz-transform: scale(1.3) rotate(360deg);
+    -webkit-transform: scale(1.3) rotate(360deg);
+    -o-transform: scale(1.3) rotate(360deg);
+    -ms-transform: scale(1.3) rotate(360deg);
+    transform: scale(1.3) rotate(720deg);
+    transition:all 1s ease;
+}
+/*----------------------------------
+FOOTER: i.hover
+----------------------------------*/
+footer .fa-heart:hover {
+    color: red;
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transition:all 0.5s ease;
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+footer .fa-sliders-h:hover {
+    color: #FF01FF;
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transition:all 0.9s ease;
+    transform: scale(1.4);
+    cursor: pointer;
+}
+/*---------------------------
+MEDIA QUERY
+---------------------------*/
+@media (min-width: 0px) and (max-width: 992px) {
+	header .form-search {
+		display: none;
+	}  
+}
+
+
+@media (min-width: 0px) {
+	hr {
+		max-width: 85%!important;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .album-details img {
+		width: 130px;
+		height: 130px;
+	}
+
+	.delete-xs {
+		display: none!important;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .album-details img {
+		width: 150px;
+		height: 150px;
+	}
+	
+	.delete-xs {
+		display: none!important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .album-details img {
+		width: 160px;
+		height: 160px;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1150px) {
+    .album-details img {
+        width: 195px;
+	}
+}
+
+@media (min-width: 768px) {
+	.delete-md {
+		display: none!important;
+	}
+}
+/*---------------------------
+XS-SCREENS
+---------------------------*/
+@media (min-width:0) and (max-width:485px) {
+	span.name-profile {
+		background: transparent;
+		top: 3%;
+		left: 19.5%;
+		border: none!important;
+		color: #111;
+		font-weight: bold;
+		font-size: 2.5rem;
+	}
+
+	.nationality-profile {
+		display: none;
+	}
+
+	.profile-photo img {
+		width: 150px;
+		top: 21.5%;
+		left: 35%;
+	}
+
+	span.details-profile {
+		top: 13%;
+	}
+
+	.container-profile {
+		margin-top: 80px;
+	}
+
+	.follow-share {
+		display: none;
+	}
+
+	.albums {
+		position: relative;
+		left: 32%;
+	}
+}
+
+@media (min-width:485px) and (max-width:510px) {
+	span.name-profile {
+		background: transparent;
+		top: 3%;
+		left: 19.5%;
+		border: none!important;
+		color: #111;
+		font-weight: bold;
+		font-size: 2.5rem;
+	}
+
+	.nationality-profile {
+		display: none;
+	}
+
+	.profile-photo img {
+		width: 150px;
+		top: 23%;
+		left: 36%;
+	}
+
+	span.details-profile {
+		top: 13%;
+	}
+
+	.container-profile {
+		margin-top: 80px;
+	}
+
+	.follow-share {
+		display: none;
+	}
+
+	.albums {
+		position: relative;
+		left: 32%;
+	}
+}
+
+@media (min-width:511px) and (max-width:555px) {
+	span.name-profile {
+		background: transparent;
+		top: 5%;
+		left: 19.5%;
+		border: none!important;
+		color: #111;
+		font-weight: bold;
+		font-size: 2.5rem;
+	}
+
+	.nationality-profile {
+		display: none;
+	}
+
+	.profile-photo img {
+		width: 175px;
+		top: 21.5%;
+		left: 35%;
+	}
+
+	span.details-profile {
+		top: 15%;
+	}
+
+	.container-profile {
+		margin-top: 85px;
+	}
+
+	.follow-share {
+		display: none;
+	}
+
+	.albums {
+		position: relative;
+		left: 34%;
+	}
+}
+
+
+
+@media (min-width:551px) and (max-width:584px) {
+	span.name-profile {
+		background: transparent;
+		top: 5%;
+		left: 20.5%;
+		border: none!important;
+		color: #111;
+		font-weight: bold;
+		font-size: 2.5rem;
+	}
+
+	.nationality-profile {
+		display: none;
+	}
+
+	.profile-photo img {
+		width: 175px;
+		top: 25%;
+		left: 36%;
+	}
+
+	span.details-profile {
+		top: 15%;
+		left: 24%;
+	}
+
+	.container-profile {
+		margin-top: 95px;
+	}
+
+	.follow-share {
+		display: none;
+	}
+}
+/*---------------------------
+SM-SCREENS
+---------------------------*/
+@media (min-width:584px) and (max-width:609px) {
+	span.name-profile {
+		background: transparent;
+		top: 6%;
+		left: 23.3%;
+		border: none!important;
+		color: #111;
+		font-weight: bold;
+		font-size: 2.5rem;
+	}
+
+	.nationality-profile {
+		display: none;
+	}
+
+	.profile-photo img {
+		width: 200px;
+		top: 25.5%;
+		left: 33.5%;
+	}
+
+	span.details-profile {
+		top: 18%;
+		left: 26.3%;
+	}
+
+	.container-profile {
+		margin-top: 90px;
+	}
+
+	.follow-share {
+		display: none;
+	}
+}
+
+@media (min-width:610px) and (max-width:650px) {
+	span.name-profile {
+		background: transparent;
+		top: 6%;
+		left: 23.3%;
+		border: none!important;
+		color: #111;
+		font-weight: bold;
+		font-size: 2.5rem;
+	}
+
+	.nationality-profile {
+		display: none;
+	}
+
+	.profile-photo img {
+		width: 200px;
+		top: 28%;
+		left: 35%;
+	}
+
+	span.details-profile {
+		top: 18%;
+		left: 26.3%;
+	}
+
+	.container-profile {
+		margin-top: 90px;
+	}
+
+	.follow-share {
+		display: none;
+	}
+}
+
+@media (min-width:651px) and (max-width:700px) {
+	span.name-profile {
+		background: transparent;
+		top: 9%;
+		left: 26.9%;
+		border: none!important;
+		color: #111;
+		font-weight: bold;
+		font-size: 2.5rem;
+	}
+
+	.nationality-profile {
+		display: none;
+	}
+
+	.profile-photo img {
+		width: 230px;
+		top: 33.5%;
+		left: 35%;
+	}
+
+	span.details-profile {
+		top: 19%;
+		left: 30%;
+	}
+
+	.container-profile {
+		margin-top: 155px;
+	}
+
+	.follow-share {
+		display: none;
+	}
+}
+
+@media (min-width:701px) and (max-width:768px) {
+	span.name-profile {
+		background: transparent;
+		top: 9%;
+		left: 26.9%;
+		border: none!important;
+		color: #111;
+		font-weight: bold;
+		font-size: 2.5rem;
+	}
+
+	.nationality-profile {
+		display: none;
+	}
+
+	.profile-photo img {
+		width: 230px;
+		top: 36%;
+		left: 35%;
+	}
+
+	span.details-profile {
+		top: 21%;
+		left: 30%;
+	}
+
+	.container-profile {
+		margin-top: 140px;
+	}
+
+	.follow-share {
+		display: none;
+	}
+
+	.sections-profile {
+		margin: auto!important;
+	}
+}
+/*---------------------------
+MD-SCREENS
+---------------------------*/
+@media (min-width:769px) and (max-width:910px) {
+	span.name-profile {
+		font-size: 1.3rem;
+		top: 22%;
+		left: 24%;
+	}
+
+	span.nationality-profile {
+		font-size: 1.3rem;
+		top: 29%;
+		left: 24%;
+	}
+
+	.profile-photo img {
+		width: 180px;
+		top: 15%;
+	}
+
+	span.details-profile {
+		top: 15.5%;
+	}
+
+}
+
+@media (min-width:910px) and (max-width:992px) {
+	span.name-profile {
+		font-size: 1.3rem;
+		top: 22%;
+		left: 21%;
+		border: #111!important;
+	}
+
+	span.nationality-profile {
+		font-size: 1.3rem;
+		top: 29%;
+		left: 21%;
+		border: #111!important;
+	}
+
+	.profile-photo img {
+		width: 180px;
+		top: 15%;
+	}
+
+	span.details-profile {
+		top: 15.5%;
+		left: 21%;
+	}
+
+}
+/*---------------------------
+LG-SCREENS
+---------------------------*/
+@media (min-width:993px) and (max-width:1149px) {
+	span.name-profile {
+		font-size: 1.5rem;
+		top: 21%;
+		left: 22%;
+		border: #111!important;
+	}
+
+	span.nationality-profile {
+		font-size: 1.5rem;
+		top: 29%;
+		left: 22%;
+		border: #111!important;
+	}
+
+	.profile-photo img {
+		width: 210px;
+		top: 17%;
+	}
+
+	span.details-profile {
+		top: 37%;
+		left: 22%;
+	}
+
+}
+
+@media (min-width:1150px) and (max-width:1200px) {
+	span.name-profile {
+		font-size: 1.8rem;
+		top: 23%;
+		left: 25%;
+		border: #111!important;
+	}
+
+	span.nationality-profile {
+		font-size: 1.8rem;
+		top: 32%;
+		left: 25%;
+		border: #111!important;
+	}
+
+	.profile-photo img {
+		top: 17%;
+	}
+
+	span.details-profile {
+		top: 41%;
+		left: 25%;
+	}
+
+}
+
+@media (min-width:1201px) {
+	span.name-profile, span.nationality-profile {
+		border: #111!important;
+	}
+}
