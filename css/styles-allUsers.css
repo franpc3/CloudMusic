@@ -79,86 +79,79 @@ MODAL
 .modal {
     letter-spacing: 1.5px;
 }
-
 /*----------------------------------
-AD - .img-advertising
+USERS-TITLE
 ----------------------------------*/
-.container .img-advertising {
-    border-radius: .25rem;
-}
-/*----------------------------------
-SONGS
-----------------------------------*/
-
-.container .songs {
-    letter-spacing: 1.3px;
-    color: #111;  
-}
-
-.container .songs p span {
-    text-transform: uppercase;
+.users-title span {
+    font-size: 1.5rem;
+    color: #111;
     letter-spacing: 1.5px;
+    font-weight: bold;
 }
 
-.container .img-song {
-    border-radius: .25rem;
-}
-/*----------------------------------
-SONGS: img-hover:hover
-----------------------------------*/
-.container .img-song:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    /*scale*/
-	-moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition:all .5s ease;
-}
-/*----------------------------------
-PROFILES
-----------------------------------*/
-.profiles {
-    margin-top: 100px;
-    margin-bottom: 50px;
+.sections-items {
+    color: #111;
+    letter-spacing: 1.5px;
+    font-size: .9rem;
 }
 
-.profiles .img-profile {
+.sections-items:hover {
+    color: #111;
+    transition: all 1s ease;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+/*----------------------------------
+LOCATIONS
+----------------------------------*/
+.locations-title {
+    color: #6B6D6E;
+    letter-spacing: 1.5px;
+    font-size: .9rem;
+}
+
+.cities {
+    color: #A4A4A4;
+    letter-spacing: 1.5px;
+    font-size: .8rem;
+}
+/*----------------------------------
+LANGUAGE
+----------------------------------*/
+.language {
+    letter-spacing: 1.5px;
+    font-size: .8rem;
+}
+
+.language:hover {
+    text-decoration: none;
+}
+/*----------------------------------
+USERS
+----------------------------------*/
+.users-title {
+    color: #6B6D6E;
+    letter-spacing: 1.5px;
+    font-size: .9rem;
+}
+
+.user-1 img {
     border-radius: 50%;
 }
 
-.profiles p {
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #111;
+.profile-details {
+    font-size: .7rem;
 }
 
-.button-profiles {
-    background-color: #111;
-    
+button a {
+    color: white!important;
+    font-size: .7rem;
 }
 
-.button-profiles a {
-    color: white;
+button a:hover {
+    transition: all 1s ease;
+    letter-spacing: 5px;
     text-decoration: none;
-    letter-spacing: 1.5px;
-}
-/*----------------------------------
-PROFILES: img-profile:hover
-----------------------------------*/
-.profiles .img-profile:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transition:all 0.5s ease;
-    transform: scale(1.1);
-    /*shadow*/
-    -webkit-box-shadow: 0px 0px 32px 32px rgba(0,0,0,0.23);
-    -moz-box-shadow: 0px 0px 32px 32px rgba(0,0,0,0.23);
-    box-shadow: 0px 0px 32px 32px rgba(0,0,0,0.23);
 }
 /*----------------------------------
 FOOTER
@@ -226,82 +219,10 @@ footer .fa-sliders-h:hover {
     cursor: pointer;
 }
 /*----------------------------------
-AD - download music
-----------------------------------*/
-.download-music {
-    margin-top: 100px; 
-    margin-bottom: 100px; 
-}
-/*----------------------------------
 MEDIA QUERY
 ----------------------------------*/
 @media (min-width: 0px) and (max-width: 992px) {
-   header .form-search {
-       display: none;
-   }  
-}
-
-
-@media (min-width: 0px) and (max-width: 768px) {
-    .container .delete-xs {
-        display: none!important;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    .container .delete-md {
-        display: none!important;
-    }
-}
-/*----------------------------------
-MEDIA QUERY - songs width
-----------------------------------*/
-@media (min-width: 0px) and (max-width: 576px) {
-    .songs img {
-        width: 130px;
-    }
-    .img-profile {
-        width: 130px;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .songs img {
-        width: 150px;
-    }
-
-    .img-profile {
-        width: 150px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1000px) {
-    .songs img {
-        width: 175px;
-    }
-
-    .img-profile {
-        width: 175px;
-    }
-}
-
-@media (min-width: 1000px) and (max-width: 1150px) {
-    .songs img {
-        width: 195px;
-    }
-
-    .img-profile {
-        width: 195px;
-    }
-}
-/*----------------------------------
-CAROUSEL
-----------------------------------*/
-a.carousel-control-prev,a.carousel-control-next {
-    width: 5%!important;
-}
-
-span.carousel-control-prev-icon,span.carousel-control-next-icon {
-    background-image: none;
-    color: #111!important;
-}
+    header .form-search {
+        display: none;
+    }  
+ }
