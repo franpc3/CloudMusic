@@ -124,16 +124,18 @@ SONG
     letter-spacing: 1.5px;
 }
 
-.artist:hover{
-    text-decoration: none;
-    color: white;
-}
-
 .album{
     font-size: 20px;
     color: #6B6D6E;
     margin-top: 0px;
     letter-spacing: 1.5px;
+}
+/*----------------------------------
+SONG: hover
+----------------------------------*/
+.artist:hover{
+    text-decoration: none;
+    color: white;
 }
 
 .img-song:hover {
@@ -234,7 +236,9 @@ a.reply:hover {
     letter-spacing: 5px;
 
 }
-
+/*----------------------------------
+LIKE-SHARE
+----------------------------------*/
 .like-icon {
     color: red;
 }
@@ -242,7 +246,9 @@ a.reply:hover {
 .share-icon {
     color: #007bff;
 }
-
+/*----------------------------------
+SOCIAL NETWORKS
+----------------------------------*/
 .fa-twitter {
     color: #1DA1F3!important;
 }
