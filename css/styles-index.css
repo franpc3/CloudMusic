@@ -121,7 +121,7 @@ SONGS: img-hover:hover
 PROFILES
 ----------------------------------*/
 .profiles {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 
@@ -263,6 +263,10 @@ MEDIA QUERY - songs width
     .img-profile {
         width: 130px;
     }
+
+    .container .songs, .profiles p {
+        font-size: .85rem;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -273,6 +277,10 @@ MEDIA QUERY - songs width
     .img-profile {
         width: 150px;
     }
+
+    .container .songs, .profiles p {
+        font-size: .90rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
@@ -282,6 +290,10 @@ MEDIA QUERY - songs width
 
     .img-profile {
         width: 175px;
+    }
+
+    .container .songs, .profiles p {
+        font-size: .95rem;
     }
 }
 
