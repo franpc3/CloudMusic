@@ -127,10 +127,17 @@ LOCATIONS
     font-size: .9rem;
 }
 
-.cities {
+.cities a {
     color: #A4A4A4;
     letter-spacing: 1.5px;
     font-size: .8rem;
+}
+
+.cities a:hover {
+    color: #111;
+    transition: all 1s ease;
+    letter-spacing: 5px;
+    text-decoration: none;
 }
 /*----------------------------------
 LANGUAGE
@@ -167,6 +174,7 @@ USERS
     -webkit-box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.23);
     -moz-box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.23);
     box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.23);
+    cursor: pointer;
 }
 
 .profile-details {
@@ -187,6 +195,31 @@ button a {
 button a:hover {
     transition: all 1s ease;
     letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.numbers-follows {
+    color: #6B6D6E;
+}
+
+hr {
+    max-width: 100%;
+}
+
+.mobile {
+    color: #6B6D6E;
+    letter-spacing: 1.5px;
+    font-size: .9rem;
+}
+/*----------------------------------
+LANGUAGE
+----------------------------------*/
+.language {
+    letter-spacing: 1.5px;
+    font-size: .8rem;
+}
+
+.language:hover {
     text-decoration: none;
 }
 /*----------------------------------
