@@ -122,7 +122,7 @@ USERS-TITLE
 LOCATIONS
 ----------------------------------*/
 .locations-title {
-    color: #6B6D6E;
+    color: #111;
     letter-spacing: 1.5px;
     font-size: .9rem;
 }
@@ -206,7 +206,7 @@ hr {
     max-width: 100%;
 }
 
-.mobile {
+.mobile, .mobile-xs {
     color: #6B6D6E;
     letter-spacing: 1.5px;
     font-size: .9rem;
@@ -295,4 +295,10 @@ MEDIA QUERY
     header .form-search, .mobile {
         display: none!important;
     }  
- }
+}
+
+@media (min-width: 992px) {
+    .delete-lg {
+        display: none!important;
+    }  
+}
