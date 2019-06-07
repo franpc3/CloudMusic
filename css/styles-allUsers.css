@@ -227,6 +227,7 @@ FOOTER
 ----------------------------------*/
 footer {
     background-color: #ECEDEF;
+    position: sticky;
 }
 
 footer audio {
@@ -291,7 +292,7 @@ footer .fa-sliders-h:hover {
 MEDIA QUERY
 ----------------------------------*/
 @media (min-width: 0px) and (max-width: 992px) {
-    header .form-search {
-        display: none;
+    header .form-search, .mobile {
+        display: none!important;
     }  
  }
