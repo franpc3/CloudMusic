@@ -381,3 +381,70 @@ MEDIA QUERY
         display: none;
     }  
  }
+
+ @media (min-width: 0px) and (max-width: 800px) {
+    .container-spectre {
+        display: none;
+    }  
+ }
+
+ @media (min-width: 0px) and (max-width: 768px) {
+    .portada{
+        width: 300px;
+        left: auto;
+        position: relative;
+        top: 0%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .contenedor{
+        height: 400px;
+        text-align: center;
+        background-color: black;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+    .titles{
+        bottom: 5%;
+        justify-content: center;
+        left: auto;
+    }
+}
+@media (min-width: 0px) and (max-width: 450px) {
+    .titles{
+        bottom: 15%;
+        justify-content: center;
+        left: auto;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .album{
+        display: none!important;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .title{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+    .artist{
+        font-size: 2.0rem;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .comentario1{
+        display: none!important;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .botones{
+        display: none!important;
+    }
+}
