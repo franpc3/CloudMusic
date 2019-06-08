@@ -448,3 +448,39 @@ MEDIA QUERY
         display: none!important;
     }
 }
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .songname-hashtags{
+        display: none!important;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .comments-title{
+        display: none!important;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .detalles{
+        position: relative;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .extra-details{
+        position: absolute;
+        top: 65%;
+        left:25%;
+}
+
+@media (min-width: 577px) and (max-width: 1024px) {
+    .comentario2{
+        display: none;
+    }
+}
+@media (min-width: 0px) and (max-width: 576px) {
+    .comentario2{
+        display: none;
+    }
+}
