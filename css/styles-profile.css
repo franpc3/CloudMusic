@@ -95,12 +95,40 @@ span.nationality-profile {
 	cursor: pointer;
 }
 /*----------------------------------
+INTERACTIONS-RRSS
+----------------------------------*/
+.interactions-rrss {
+	color: #6B6D6E;
+    letter-spacing: 1.5px;
+    font-size: .8rem;
+}
+/*----------------------------------
+SOCIAL NETWORKS
+----------------------------------*/
+.fa-twitter {
+    color: #1DA1F3!important;
+}
+
+.fa-instagram {
+    color: #A7348F;
+}
+
+.fa-snapchat-square {
+    color: rgb(238, 238, 39);
+}
+
+.rrss-title {
+    letter-spacing: 1.5px;
+    color: #6c757d;
+    font-size: .85rem;
+}
+/*----------------------------------
 MOBILE
 ----------------------------------*/
 .mobile {
     color: #6B6D6E;
     letter-spacing: 1.5px;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 /*----------------------------------
 LANGUAGE
