@@ -48,10 +48,10 @@
   <!--Sections-profile-->
   <div class="container container-profile">
     <div class="row d-flex justify-content-between">
-      <div class="sections-profile my-4 m-auto ml-md-0">
-        <span class="pr-2 pl-0">Tracks</span>
-        <span class="px-2">Albums</span>
-        <span class="px-2">Information</span>
+      <div class="sections-profile my-5 m-auto ml-md-0">
+      <a href="#tracks"><span class="pr-2 pl-0">Tracks</span></a>  
+      <a href="#albums"><span class="px-2">Albums</span></a>  
+       <a href="#biography"><span class="px-2">Information</span></a> 
       </div>
       <!--Follow-share-message-->
       <div class="follow-share my-3">
@@ -62,9 +62,136 @@
     </div>
   </div>
 
+  <!--Tracks songs-->
+  <div class="container-fluid my-5">
+    <div class="row col-12 mr-0">
+      <ul class="col-7 pl-4">
+
+        <span class="tracks mb-0" id="tracks">Tracks</span>
+
+        <hr class="col-12">
+
+        <li class="mb-3 track-list">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+              <img width="50" height="50" class="rounded track-img"
+                src="images/img-page-profile/album-purpose.png">
+              <div class="d-flex flex-column ml-4 track-span mt-2">
+                <span>Sorry</span>
+                <span class="artist">Justin Bieber</span>
+              </div>
+            </div>
+            <div class="d-flex flex-column mt-2">
+              <span class="track-time">3:26</span>
+              <span><i class="fas fa-play-circle mt-1 pl-1 text-primary"></i></span>
+            </div>
+          </div>
+        </li>
+
+        <hr class="col-12">
+
+        <li class="mb-3">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+              <img width="50" height="50" class="rounded track-img"
+                src="images/img-page-profile/album-journals.jpg">
+              <div class="d-flex flex-column ml-4 track-span mt-2">
+                <span>Roller coaster</span>
+                <span class="artist">Justin Bieber</span>
+              </div>
+            </div>
+            <div class="d-flex flex-column mt-2">
+              <span class="track-time">3:22</span>
+              <span><i class="fas fa-play-circle mt-1 pl-1 text-primary"></i></span>
+            </div>
+          </div>
+        </li>
+
+        <hr class="col-12">
+
+        <li class="mb-3">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+              <img width="50" height="50" class="rounded track-img"
+                src="images/img-page-profile/album-believe.jpg">
+              <div class="d-flex flex-column ml-4 track-span mt-2">
+                <span>Beauty and a beat</span>
+                <span class="artist">Justin Bieber</span>
+              </div>
+            </div>
+            <div class="d-flex flex-column mt-2">
+              <span class="track-time">3:49</span>
+              <span><i class="fas fa-play-circle mt-1 pl-1 text-primary"></i></span>
+            </div>
+          </div>
+        </li>
+
+        <hr class="col-12">
+
+        <li class="mb-3">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+              <img width="50" height="50" class="rounded track-img"
+                src="images/img-page-profile/album-never.jpg">
+              <div class="d-flex flex-column ml-4 track-span mt-2">
+                <span>Baby</span>
+                <span class="artist">Justin Bieber</span>
+              </div>
+            </div>
+            <div class="d-flex flex-column mt-2">
+              <span class="track-time">3:45</span>
+              <span><i class="fas fa-play-circle mt-1 pl-1 text-primary"></i></span>
+            </div>
+          </div>
+        </li>
+
+        <hr class="col-12">
+
+        <li class="mb-3">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+              <img width="50" height="50" class="rounded track-img"
+                src="images/img-page-profile/album-world.jpg">
+              <div class="d-flex flex-column ml-4 track-span mt-2">
+                <span>Never say never</span>
+                <span class="artist">Justin Bieber</span>
+              </div>
+            </div>
+            <div class="d-flex flex-column mt-2">
+              <span class="track-time">3:50</span>
+              <span><i class="fas fa-play-circle mt-1 pl-1 text-primary"></i></span>
+            </div>
+          </div>
+        </li>
+
+
+      </ul>
+
+      <div class="col-2">
+      </div>
+
+      <div class="d-flex justify-content-end col-3">
+
+      <div class="mobile d-flex flex-column col-12 p-0 m-0">
+          <span class="text-right">Go mobile</span>
+          <div class="d-flex justify-content-end">
+              <img src="images/img-advertising/download-app.jpg" alt="download-app" width="100" height="50" class="mt-2">
+          </div>
+          <hr class="ml-5">
+          <div class="legal d-flex justify-content-end">
+              <a href="#" class="language"><span>Language:</span>&nbsp;<span>English (US)</span></a>
+          </div>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+
+  <!--Albums-->
   <div class="container-fluid my-5">
     <div class="row">
-      <span class="pl-5 albums ">Albums</span>
+      <span class="pl-5 albums mt-5" id="albums">Albums</span>
       <hr class="col-11 ml-5">
       <div class="d-flex justify-content-around col-12 mt-3 albums-img">
 
@@ -103,44 +230,44 @@
   </div>
 
   <div class="container-fluid my-5">
-      <div class="row">
-        <div class="d-flex justify-content-around col-12 mt-3 albums-img">
-  
-          <div class="d-flex flex-column album-details delete-md">
-            <img src="images/img-page-profile/album-believe.jpg" alt="Believe" width="200" height="200" class="rounded">
-            <span class="text-center mt-2">Believe</span>
-            <span class="text-center mt-1 artist">Justin Bieber</span>
-          </div>
-  
-          <div class="d-flex flex-column album-details delete-md">
-            <img src="images/img-page-profile/album-never.jpg" alt="Never" width="200" height="200" class="rounded">
-            <span class="text-center mt-2">Never say never</span>
-            <span class="text-center mt-1 artist">Justin Bieber</span>
-          </div>
+    <div class="row">
+      <div class="d-flex justify-content-around col-12 mt-3 albums-img">
 
+        <div class="d-flex flex-column album-details delete-md">
+          <img src="images/img-page-profile/album-believe.jpg" alt="Believe" width="200" height="200" class="rounded">
+          <span class="text-center mt-2">Believe</span>
+          <span class="text-center mt-1 artist">Justin Bieber</span>
         </div>
+
+        <div class="d-flex flex-column album-details delete-md">
+          <img src="images/img-page-profile/album-never.jpg" alt="Never" width="200" height="200" class="rounded">
+          <span class="text-center mt-2">Never say never</span>
+          <span class="text-center mt-1 artist">Justin Bieber</span>
+        </div>
+
       </div>
     </div>
+  </div>
 
-    <div class="container-fluid my-5">
-        <div class="row">
-          <div class="d-flex justify-content-center col-12 mt-3 albums-img">
-    
-              <div class="d-flex flex-column album-details delete-md">
-                  <img src="images/img-page-profile/album-world.jpg" alt="World" width="200" height="200" class="rounded">
-                  <span class="text-center mt-2">My world</span>
-                  <span class="text-center mt-1 artist">Justin Bieber</span>
-              </div>
+  <div class="container-fluid my-5">
+    <div class="row">
+      <div class="d-flex justify-content-center col-12 mt-3 albums-img">
 
-          </div>
+        <div class="d-flex flex-column album-details delete-md">
+          <img src="images/img-page-profile/album-world.jpg" alt="World" width="200" height="200" class="rounded">
+          <span class="text-center mt-2">My world</span>
+          <span class="text-center mt-1 artist">Justin Bieber</span>
         </div>
+
+      </div>
     </div>
+  </div>
 
 
   <div class="container information">
     <div class="row">
       <div class="col-6 p-0">
-        <span class="information-title">Biography</span><br><br>
+        <span class="information-title" id="biography">Biography</span><br><br>
         <p class="information-content">
           Canadian pop singer Justin Bieber was barely in his teens when he released his 2009 debut, My World, and it
           became one of the youngest success stories of contemporary pop when it became platinum or double platinum in
