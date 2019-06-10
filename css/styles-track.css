@@ -437,34 +437,50 @@ MEDIA QUERY: .container-spectre
 MEDIA QUERY: .profiles
 ----------------------------------*/
 @media (min-width: 0px) and (max-width: 500px) {
+    .principal-container {
+        position: relative;
+    }
+
     .profiles {
         position: absolute;
-        top: 83%;
-        left: 34%;
+        top: 500%;
+        left: 33.5%;
     }
     
 }
 
 @media (min-width: 500px) and (max-width: 600px) {
+    .principal-container {
+        position: relative;
+    }
+
     .profiles {
         position: absolute;
-        top: 83%;
+        top: 500%;
         left: 36.3%;
     }
 }
 
 @media (min-width: 600px) and (max-width: 700px) {
+    .principal-container {
+        position: relative;
+    }
+
     .profiles {
         position: absolute;
-        top: 83%;
+        top: 500%;
         left: 38.5%;
     }
 }
 
 @media (min-width: 700px) and (max-width: 767px) {
+    .principal-container {
+        position: relative;
+    }
+
     .profiles {
         position: absolute;
-        top: 83%;
+        top: 500%;
         left: 40%;
     }
 }
