@@ -251,10 +251,6 @@ a.reply:hover {
 
 }
 /*----------------------------------
-INTERACTIONS
-----------------------------------*/
-
-/*----------------------------------
 LIKE-SHARE
 ----------------------------------*/
 .comentario2{
@@ -379,20 +375,24 @@ footer .fa-sliders-h:hover {
     cursor: pointer;
 }
 /*----------------------------------
-MEDIA QUERY
+MEDIA QUERY: .form-search
 ----------------------------------*/
 @media (min-width: 0px) and (max-width: 992px) {
     header .form-search {
         display: none;
     }  
  }
-
+/*----------------------------------
+MEDIA QUERY: track details
+----------------------------------*/
 @media (min-width: 0px) and (max-width: 576px) {
     .extra-details {
         top: 100%;
     }
 }
-
+/*----------------------------------
+MEDIA QUERY: track
+----------------------------------*/
 @media (min-width: 0px) and (max-width: 767px) {
     .track-container {
         height: 550px;
@@ -424,14 +424,18 @@ MEDIA QUERY
         font-size: 2.0rem;
     }
 }
-
+/*----------------------------------
+MEDIA QUERY: .container-spectre
+----------------------------------*/
 @media (min-width: 768px) and (max-width: 850px) {
     .container-spectre {
         position: relative;
         left: -23%;
     }  
 }
-
+/*----------------------------------
+MEDIA QUERY: .profiles
+----------------------------------*/
 @media (min-width: 0px) and (max-width: 500px) {
     .profiles {
         position: absolute;
