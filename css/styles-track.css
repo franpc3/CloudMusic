@@ -387,20 +387,6 @@ MEDIA QUERY
     }  
  }
 
- @media (min-width: 0px) and (max-width: 833px) {
-    .container-spectre {
-        display: none;
-    }  
- }
-
-@media (min-width: 0px) and (max-width: 767px) {
-    .titles {
-        bottom: 10%;
-        justify-content: center;
-        left: auto;
-    }
-}
-
 @media (min-width: 0px) and (max-width: 576px) {
     .extra-details {
         top: 100%;
@@ -409,16 +395,20 @@ MEDIA QUERY
 
 @media (min-width: 0px) and (max-width: 767px) {
     .track-container {
-        height: 500px;
+        height: 550px;
         text-align: center;
         background-color: black;
     }
 
-    /* .profiles {
-        position: absolute;
-        top: 78%;
-        left: 30%;
-    } */
+    .titles {
+        bottom: 2%;
+        justify-content: center;
+        left: auto;
+    }
+    .container-spectre {
+        position: relative;
+        top: 53%;
+    }  
 
     .img-track {
         width: 300px;
@@ -435,26 +425,34 @@ MEDIA QUERY
     }
 }
 
+@media (min-width: 768px) and (max-width: 850px) {
+    .container-spectre {
+        position: relative;
+        left: -23%;
+    }  
+}
+
 @media (min-width: 0px) and (max-width: 500px) {
     .profiles {
         position: absolute;
-        top: 78%;
-        left: 34.3%;
+        top: 83%;
+        left: 34%;
     }
+    
 }
 
 @media (min-width: 500px) and (max-width: 600px) {
     .profiles {
         position: absolute;
-        top: 78%;
-        left: 36.5%;
+        top: 83%;
+        left: 36.3%;
     }
 }
 
 @media (min-width: 600px) and (max-width: 700px) {
     .profiles {
         position: absolute;
-        top: 78%;
+        top: 83%;
         left: 38.5%;
     }
 }
@@ -462,7 +460,7 @@ MEDIA QUERY
 @media (min-width: 700px) and (max-width: 767px) {
     .profiles {
         position: absolute;
-        top: 78%;
+        top: 83%;
         left: 40%;
     }
 }
