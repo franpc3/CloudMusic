@@ -160,14 +160,14 @@
 
 
     <div class="container-fluid d-flex justify-content-center m-auto p-0 song-container">
-        <div class="row col-12 contenedor justify-content-center">
-            <div class="titles">
+        <div class="row col-12 track-container justify-content-center">
+            <div class="titles mt-0 mt-md-2">
                 <a href="#" class="artist rounded">David Guetta ft Akon</a>
-                <p class="title">Sexy Bitch</p>
-                <p class="album">One Love</p>
+                <p class="title mb-0 mb-md-2">Sexy Bitch</p>
+                <p class="album d-none d-md-block">One Love</p>
             </div>
-            <div class=" portada">
-              <img class="img-fluid img-song" src="images/img-songs/sexy-bitch.jpg" alt="">
+            <div class="img-track">
+                <img class="img-fluid img-song" src="images/img-songs/sexy-bitch.jpg" alt="track-image">
             </div>
             <div class="container-spectre">
                 <img class="img-fluid spectre p-0 m-0" src="images/musical-spectrum.gif" alt="">
@@ -176,7 +176,7 @@
     </div>
 
     <div class="container-fluid mt-3 d-flex justify-content-between">
-        <div class="row profiles col-5 comentario1">
+        <div class="row profiles col-5 d-none d-md-block">
             <div class="input-group">
                 <div class="input-group-prepend img-input rounded">
                     <img src="images/rolling-code.png" alt="rolling-code" width="33" height="33" class="pt-1">
@@ -185,7 +185,7 @@
             </div>
         </div>
 
-        <div class="btn-group botones" role="group" aria-label="Basic example">
+        <div class="btn-group d-none d-md-block" role="group" aria-label="Basic example">
             <button type="button" class="btn interactions-buttons btn-outline-dark"><span><i
                         class="fas fa-heart mr-2"></i></span> Like</button>
             <button type="button" class="btn interactions-buttons btn-outline-dark"><span><i
@@ -197,27 +197,29 @@
         </div>
     </div>
 
-    <div class="container espacio my-4">
+    <div class="container d-none d-md-block my-4">
         <hr>
     </div>
 
-    <div class="container-fluid d-flex justify-content-between detalles">
-          <div class="row profiles col-5 col-sm-5 col-md-2">
-                <div class="profile1">
-                    <a href="#"><img src="images/img-profiles/profile-1.jpg" alt="person" class="img-fluid img-profile"
-                            width="150" /></a>
-                    <p class="mt-3 mb-1 font-weight-bolder text-center">Genius90</p>
-                    <div class="d-flex justify-content-around">
-                        <span>6,318<i class="pl-1 fas fa-user-friends"></i></span>
-                        <span>8<i class="pl-1 fas fa-music"></i></span>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary mt-2 py-0 px-1"><a href="#">Follow</a></button>
-                    </div>
+    <div class="container-fluid d-flex flex-column flex-md-row principal-container">
+
+        <div class="row profiles mb-5 mb-md-0 col-5 col-sm-5 col-md-2">
+            <div class="profile1">
+                <a href="#"><img src="images/img-profiles/profile-1.jpg" alt="person" class="img-fluid img-profile"
+                        width="150" /></a>
+                <p class="mt-3 mb-1 font-weight-bolder text-center">Genius90</p>
+                <div class="d-flex justify-content-around ">
+                    <span>6,318<i class="pl-1 fas fa-user-friends"></i></span>
+                    <span>8<i class="pl-1 fas fa-music"></i></span>
+                </div>
+                <div class="d-flex justify-content-center mb-5 mb-md-0">
+                    <button class="btn btn-primary mt-2 py-0 px-1"><a href="#">Follow</a></button>
                 </div>
             </div>
+        </div>
+
         <div class="row extra-details col-4 col-sm-6 col-md-6 mt-3 flex-column">
-            <div class="songname-hashtags">
+            <div class="songname-hashtags d-none d-md-block">
                 <span class="songname">Sexy bitch - David Guetta ft Akon</span><br><br>
                 <span class="songname-details">*We do not own rights to this music</span><br><br>
                 <span class="badge badge-secondary">#SexyBitch</span>
@@ -225,47 +227,49 @@
                 <span class="badge badge-secondary">#CloudMusic</span>
                 <span class="badge badge-secondary">#RollingCode</span>
             </div>
-            <div class="comments-title mt-4 mb-0 pb-0">
+
+            <div class="comments-title mt-4 mb-0 pb-0 d-none d-md-block">
                 <span><i class="fas fa-comment-alt pr-2"></i>10 Comments</span>
             </div>
-            <hr>
-            
-                <div class="input-group  comentario2">
-                    <div class="input-group-prepend img-input rounded">
-                        <img src="images/rolling-code.png" alt="rolling-code" width="33" height="33" class="pt-1">
-                    </div>
-                    <input type="text" class="form-control" placeholder="Write a comment">
-                </div>
-            
+
+            <hr class="d-none d-md-block">
+
             <!--Comments-->
-        
-            <div class="d-flex justify-content-between mb-3">
-                <div class="comments d-flex">
-                    <img src="images/img-profiles/profile-3.jpg" alt="photo-profile" width="30" height="30"
-                        class="comment-img mr-2">
-                    <div class="content-comment">
-                        <span class="name-comment">Ninja Rock</span>&nbsp<span class="at">at</span>&nbsp<span
-                            class="hour-comment">00:40</span><br>
-                        <span>Very cool!!</span>
+
+            <div class="d-none d-md-block mb-3">
+                <div class="d-flex justify-content-between">
+                    <div class="comments d-flex">
+                        <img src="images/img-profiles/profile-3.jpg" alt="photo-profile" width="30" height="30"
+                            class="comment-img mr-2">
+                        <div class="content-comment">
+                            <span class="name-comment">Ninja Rock</span>&nbsp<span class="at">at</span>&nbsp<span
+                                class="hour-comment">00:40</span><br>
+                            <span>Very cool!!</span>
+                        </div>
                     </div>
+
+                    <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
                 </div>
-                <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
             </div>
 
-            <div class="d-flex justify-content-between mb-3">
-                <div class="comments d-flex">
-                    <img src="images/img-profiles/profile-4.jpg" alt="photo-profile" width="30" height="30"
-                        class="comment-img mr-2">
-                    <div class="content-comment">
-                        <span class="name-comment">Lollip0p</span>&nbsp<span class="at">at</span>&nbsp<span
-                            class="hour-comment">00:29</span><br>
-                        <span>THUG LIFE</span>
+            <div class="d-none d-md-block mb-3">
+                <div class="d-flex justify-content-between">
+                    <div class="comments d-flex">
+                        <img src="images/img-profiles/profile-4.jpg" alt="photo-profile" width="30" height="30"
+                            class="comment-img mr-2">
+                        <div class="content-comment">
+                            <span class="name-comment">Lollip0p</span>&nbsp<span class="at">at</span>&nbsp<span
+                                class="hour-comment">00:29</span><br>
+                            <span>THUG LIFE</span>
+                        </div>
                     </div>
+
+                    <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
                 </div>
-                <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
             </div>
 
-            <div class="d-flex justify-content-between mb-3">
+            <div class="d-none d-md-block mb-3">
+                <div class="d-flex justify-content-between">
                 <div class="comments d-flex">
                     <img src="images/img-profiles/profile-5.png" alt="photo-profile" width="30" height="30"
                         class="comment-img mr-2">
@@ -275,23 +279,29 @@
                         <span>good!!</span>
                     </div>
                 </div>
+
                 <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
+                </div>
             </div>
 
-            <div class="d-flex justify-content-between mb-3">
+            <div class="d-none d-md-block mb-3">
+                <div class="d-flex justify-content-between">
                 <div class="comments d-flex">
                     <img src="images/img-profiles/profile-6.jpg" alt="photo-profile" width="30" height="30"
                         class="comment-img mr-2">
                     <div class="content-comment">
                         <span class="name-comment">C H A N</span>&nbsp<span class="at">at</span>&nbsp<span
                             class="hour-comment">23:59</span><br>
-                        <span>Nice mix, check out my profile for beats.</span>
+                        <span>Nice mix</span>
                     </div>
                 </div>
+
                 <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
+                </div>
             </div>
 
-            <div class="d-flex justify-content-between mb-3">
+            <div class="d-none d-md-block mb-3">
+                <div class="d-flex justify-content-between">
                 <div class="comments d-flex">
                     <img src="images/img-profiles/profile-7.jpg" alt="photo-profile" width="30" height="30"
                         class="comment-img mr-2">
@@ -301,10 +311,13 @@
                         <span>get me to nxt level</span>
                     </div>
                 </div>
+
                 <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
+                </div>
             </div>
 
-            <div class="d-flex justify-content-between mb-3">
+            <div class="d-none d-md-block mb-3">
+                <div class="d-flex justify-content-between">
                 <div class="comments d-flex">
                     <img src="images/img-profiles/profile-8.jpg" alt="photo-profile" width="30" height="30"
                         class="comment-img mr-2">
@@ -314,10 +327,13 @@
                         <span>Woooow👌👌</span>
                     </div>
                 </div>
+
                 <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
             </div>
+            </div>
 
-            <div class="d-flex justify-content-between mb-3">
+            <div class="d-none d-md-block mb-3">
+                <div class="d-flex justify-content-between">
                 <div class="comments d-flex">
                     <img src="images/img-profiles/profile-9.jpg" alt="photo-profile" width="30" height="30"
                         class="comment-img mr-2">
@@ -329,10 +345,13 @@
                         </div>
                     </div>
                 </div>
+
                 <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
             </div>
+            </div>
 
-            <div class="d-flex justify-content-between mb-3">
+            <div class="d-none d-md-block mb-3">
+                <div class="d-flex justify-content-between">
                 <div class="comments d-flex">
                     <img src="images/img-profiles/profile-10.jpg" alt="photo-profile" width="30" height="30"
                         class="comment-img mr-2">
@@ -342,10 +361,13 @@
                         <span>hahaha</span>
                     </div>
                 </div>
+
                 <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
+                </div>
             </div>
 
-            <div class="d-flex justify-content-between mb-3">
+            <div class="d-none d-md-block mb-3">
+                <div class="d-flex justify-content-between">
                 <div class="comments d-flex">
                     <img src="images/img-profiles/profile-11.jpg" alt="photo-profile" width="30" height="30"
                         class="comment-img mr-2">
@@ -355,10 +377,13 @@
                         <span>Damn boie</span>
                     </div>
                 </div>
+
                 <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
             </div>
+            </div>
 
-            <div class="d-flex justify-content-between mb-3">
+            <div class="d-none d-md-block mb-3">
+                <div class="d-flex justify-content-between">
                 <div class="comments d-flex">
                     <img src="images/img-profiles/profile-12.jpg" alt="photo-profile" width="30" height="30"
                         class="comment-img mr-2">
@@ -368,42 +393,46 @@
                         <span>very very nice</span>
                     </div>
                 </div>
+
                 <a href="#" class="reply pt-2 px-1"><i class="fas fa-share pr-1"></i>Reply</a>
             </div>
+        </div>
         </div>
 
         <div class="d-flex flex-column mt-3 col-3 col-sm-4 interactions-columnp pr-0">
 
             <div class="likes-reposts d-flex justify-content-end">
-                <span class="mr-2"><i class="fas fa-heart px-1 like-icon"></i>26.3K</span>
-                <span><i class="fas fa-retweet px-1 share-icon"></i>557</span>
+                <span class="mr-2 d-none d-md-block"><i class="fas fa-heart px-1 like-icon"></i>26.3K</span>
+                <span class="d-none d-md-block"><i class="fas fa-retweet px-1 share-icon"></i>557</span>
             </div>
 
-            <hr class="ml-5">
+            <hr class="ml-5 d-none d-md-block">
 
-            <div class="social-title  d-flex justify-content-end">
-               <span class="rrss-title">Social networks</span>
+            <div class="social-title d-flex justify-content-end ">
+                <span class="rrss-title d-none d-md-block">Social networks</span>
             </div>
+
             <div class="social-networks d-flex justify-content-end mt-2">
-               <a href="#"><span ><i class="fab fa-facebook-square pr-4"></i></span></a>
-               <a href="#"><span><i class="fab fa-twitter pr-4"></i></span></a>
-               <a href="#"><span><i class="fab fa-instagram pr-4"></i></span></a>
-               <a href="#"><span><i class="fab fa-snapchat-square"></i></span></a>
+                <a href="#" class="d-none d-md-block"><span><i class="fab fa-facebook-square pr-4"></i></span></a>
+                <a href="#" class="d-none d-md-block"><span><i class="fab fa-twitter pr-4"></i></span></a>
+                <a href="#" class="d-none d-md-block"><span><i class="fab fa-instagram pr-4"></i></span></a>
+                <a href="#" class="d-none d-md-block"><span><i class="fab fa-snapchat-square"></i></span></a>
             </div>
 
-            <hr class="ml-5">
+            <hr class="ml-5 d-none d-md-block">
 
             <div class="mobile d-flex flex-column">
-                    <span class="text-right">Go mobile</span>
+                <span class="text-right d-none d-md-block">Go mobile</span>
                 <div class="d-flex justify-content-end">
-                    <img src="images/img-advertising/download-app.jpg" alt="download-app" width="100" height="50" class="mt-2">
+                    <img src="images/img-advertising/download-app.jpg" alt="download-app" width="100" height="50"
+                        class="mt-2 d-none d-md-block">
                 </div>
             </div>
 
-            <hr class="ml-5">
+            <hr class="ml-5 d-none d-md-block">
 
             <div class="legal d-flex justify-content-end">
-                <a href="#" class="language"><span>Language:</span>&nbsp;<span>English (US)</span></a>
+                <a href="#" class="language d-none d-md-block"><span>Language:</span>&nbsp;<span>English (US)</span></a>
             </div>
         </div>
     </div>

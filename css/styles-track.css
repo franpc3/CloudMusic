@@ -89,7 +89,8 @@ SONG
     position: relative;
     background-color: #000;
 }
-.portada{
+
+.img-track{
     position: absolute;
     height: 250px;
     margin-top: 3%;
@@ -386,135 +387,82 @@ MEDIA QUERY
     }  
  }
 
- @media (min-width: 0px) and (max-width: 800px) {
+ @media (min-width: 0px) and (max-width: 833px) {
     .container-spectre {
         display: none;
     }  
  }
 
- @media (min-width: 0px) and (max-width: 768px) {
-    .portada{
-        width: 300px;
-        top: 3%;
-        right: auto;
-        }
+@media (min-width: 0px) and (max-width: 767px) {
+    .titles {
+        bottom: 10%;
+        justify-content: center;
+        left: auto;
+    }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
-    .contenedor{
+@media (min-width: 0px) and (max-width: 576px) {
+    .extra-details {
+        top: 100%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .track-container {
         height: 500px;
         text-align: center;
         background-color: black;
     }
-}
-@media (min-width: 0px) and (max-width: 576px) {
-    .espacio{
-        display: none!important;
-    }
-}
 
-@media (min-width: 450px) and (max-width: 768px) {
-    .titles{
-        bottom: 5%;
-        justify-content: center;
-        left: auto;
-    }
-}
-@media (min-width: 0px) and (max-width: 450px) {
-    .titles{
-        bottom: 15%;
-        justify-content: center;
-        left: auto;
-    }
-}
+    /* .profiles {
+        position: absolute;
+        top: 78%;
+        left: 30%;
+    } */
 
-@media (min-width: 0px) and (max-width: 768px) {
-    .album{
-        display: none!important;
+    .img-track {
+        width: 300px;
+        top: 3%;
+        right: auto;
     }
-}
 
-@media (min-width: 0px) and (max-width: 768px) {
-    .title{
-        font-size: 1.5rem;
+    .title {
+        font-size: 1.4rem;
     }
-}
-@media (min-width: 0px) and (max-width: 768px) {
-    .artist{
+
+    .artist {
         font-size: 2.0rem;
     }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
-    .comentario1{
-        display: none!important;
+@media (min-width: 0px) and (max-width: 500px) {
+    .profiles {
+        position: absolute;
+        top: 78%;
+        left: 34.3%;
     }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
-    .botones{
-        display: none!important;
+@media (min-width: 500px) and (max-width: 600px) {
+    .profiles {
+        position: absolute;
+        top: 78%;
+        left: 36.5%;
     }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
-    .songname-hashtags{
-        display: none!important;
+@media (min-width: 600px) and (max-width: 700px) {
+    .profiles {
+        position: absolute;
+        top: 78%;
+        left: 38.5%;
     }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
-    .comments-title{
-        display: none!important;
-    }
-}
-
-@media (min-width: 0px) and (max-width: 768px) {
-    .detalles{
-        position: relative;
-        margin-top: 30%;
-        left: 35%;
-        flex-flow: column;
-    }
-}
-
-@media (min-width: 0px) and (max-width: 576px) {
-    .extra-details{
-        top: 100%;
-}
-
-@media (min-width: 0px) and (max-width: 768px) {
-    .comentario2{
-       visibility: visible;
-    }
-}
-
-@media (min-width: 0px) and (max-width: 768px) {
-    .social-title{
-        display: none!important;
-    }
-}
-
-@media (min-width: 0px) and (max-width: 768px) {
-    .mobile{
-        display: none!important;
-    }
-}
-
-@media (min-width: 0px) and (max-width: 768px) {
-    .legal{
-        display: none!important;
-    }
-}
-
-@media (min-width: 0px) and (max-width: 768px) {
-    .social-networks{
-        display: none!important;
-    }
-}
-
-@media (min-width: 0px) and (max-width: 768px) {
-    .likes-reposts{
-        display: none!important;
+@media (min-width: 700px) and (max-width: 767px) {
+    .profiles {
+        position: absolute;
+        top: 78%;
+        left: 40%;
     }
 }
