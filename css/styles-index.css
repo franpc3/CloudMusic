@@ -165,7 +165,11 @@ AD - download music
 ----------------------------------*/
 .download-music {
     margin-top: 100px; 
-    margin-bottom: 100px; 
+    margin-bottom: 0px; 
+}
+
+.download-app { 
+    margin-bottom: 50px; 
 }
 /*----------------------------------
 FOOTER
