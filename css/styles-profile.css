@@ -243,6 +243,7 @@ span.details-profile {
 	color: #111;
 	letter-spacing: 1.5px;
 	text-align: justify;
+	font-size: .9rem;
 }
 /*---------------------------
 FANS-INFORMATION
@@ -267,7 +268,7 @@ ul li .fans-country {
 ul li .number-listeners {
 	color: #6B6D6E;
 	letter-spacing: 1.5px;
-	font-size: .9rem;
+	font-size: .8rem;
 }
 /*----------------------------------
 FOOTER

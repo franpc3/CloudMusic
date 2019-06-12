@@ -134,10 +134,11 @@ PROFILES
     text-transform: uppercase;
     color: #111;
 }
-
+/*----------------------------------
+BUTTON ALL PROFILES
+----------------------------------*/
 .button-profiles {
     background-color: #111;
-    
 }
 
 .button-profiles a {
@@ -167,7 +168,9 @@ AD - download music
     margin-top: 100px; 
     margin-bottom: 0px; 
 }
-
+/*----------------------------------
+AD - download app
+----------------------------------*/
 .download-app { 
     margin-bottom: 50px; 
 }
