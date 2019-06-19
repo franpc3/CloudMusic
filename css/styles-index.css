@@ -87,6 +87,17 @@ AD - .img-advertising
     border-radius: .25rem;
 }
 /*----------------------------------
+CAROUSEL
+----------------------------------*/
+a.carousel-control-prev,a.carousel-control-next {
+    width: 5%!important;
+}
+
+span.carousel-control-prev-icon,span.carousel-control-next-icon {
+    background-image: none;
+    color: #111!important;
+}
+/*----------------------------------
 SONGS
 ----------------------------------*/
 
@@ -238,17 +249,6 @@ footer .fa-sliders-h:hover {
     transition:all 0.9s ease;
     transform: scale(1.4);
     cursor: pointer;
-}
-/*----------------------------------
-CAROUSEL
-----------------------------------*/
-a.carousel-control-prev,a.carousel-control-next {
-    width: 5%!important;
-}
-
-span.carousel-control-prev-icon,span.carousel-control-next-icon {
-    background-image: none;
-    color: #111!important;
 }
 /*----------------------------------
 MEDIA QUERY

@@ -1,3 +1,3 @@
 # CloudMusic
 
-Rolling code project
+Rolling code - bootstrap project
