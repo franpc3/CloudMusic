@@ -159,9 +159,6 @@ USERS
     font-size: .9rem;
 }
 
-.users img {
-    border-radius: 50%;
-}
 
 .users img:hover {
     -moz-transform: scale(1.1);
@@ -178,7 +175,12 @@ USERS
 }
 
 .profile-details {
-    font-size: .7rem;
+    font-size: .8rem;
+}
+
+.title-username {
+    font-size: .65rem;
+    letter-spacing: 1.5px;
 }
 
 .username {
@@ -186,21 +188,15 @@ USERS
     color: #111;
 }
 
-button a {
-    color: white!important;
+.interactions-buttons {
+    background-color: #ECEDEF;
     font-size: .7rem;
-    letter-spacing: 1.5px;
 }
 
-button a:hover {
-    transition: all 1s ease;
-    letter-spacing: 5px;
-    text-decoration: none;
+.interactions-buttons .fa-heart {
+    color: red;
 }
 
-.numbers-follows {
-    color: #6B6D6E;
-}
 
 hr {
     max-width: 100%;
