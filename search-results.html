@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="es-en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>CloudMusic - results</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- icon -->
+    <link rel="shortcut icon" type="image/png" href="images/img-logo/logo-header.png">
+    <!-- FontAwesone CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles-searchResults.css">
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="container-fluid mb-3 mx-0">
+        <div class="row d-flex ">
+            <!--Nav-->
+            <nav class="navbar navbar-expand-md pt-0 pb-0 col-12 justify-content-between justify-content-sm-between">
+                <!--Img-logo-->
+                <a href="index.html" class="col-3 col-xl-3">
+                    <img src="images/img-logo/logo-header-2.png" alt="logo-header" width="200">
+                </a>
+                <!--Nav-search-->
+                <form action="" class="form-search col-xl-6">
+                    <div class="form-group m-3">
+                        <label for="search" class="sr-only">Search</label>
+                        <div class="input-group">
+                            <input type="text" name="search" id="search" class="form-control border input-search"
+                                placeholder="Find your favorite songs, artists, albums...">
+                            <!--button-search-->
+                            <div class="input-group-prepend">
+                                <button type="submit" class="btn text-white pl-3 button-search"><i
+                                        class="fas fa-search fa-sm mr-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!--Dropdown menu-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse col-lg-3 flex-sm-row-reverse" id="navbarSupportedContent">
+                    <ul class="navbar-nav float-right">
+                        <!--Links-->
+                        <li class="nav-item active text-right">
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Register</a>
+                        </li>
+                        <li class="nav-item text-right">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--Modal-register-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <!--Register-name -->
+                        <div class="form-group mb-4">
+                            <label for="name" class="">Name:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" name="name" id="name" class="form-control"
+                                    placeholder="Enter your name">
+                            </div>
+                        </div>
+
+                        <!--Register-username -->
+                        <div class="form-group mb-4">
+                            <label for="username" class="">Username:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" name="username" id="username" class="form-control"
+                                    placeholder="Enter your username" required>
+                            </div>
+                            <small class="form-text text-muted" id="help-username">The username that you want to
+                                use.</small>
+                        </div>
+
+                        <!--Register-email-->
+                        <div class="form-group mb-4">
+                            <label for="email" class="">Email:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                </div>
+                                <input type="email" name="email" id="email" class="form-control"
+                                    placeholder="Enter your email" required>
+                                <div class="input-group-append">
+                                    <span class="input-group-text">@example.com</span>
+                                </div>
+                            </div>
+                            <small class="form-text text-muted" id="help-username">The email you will use for this
+                                account.</small>
+                        </div>
+
+                        <!--Register-password-->
+                        <div class="form-group mb-4">
+                            <label for="password" class="">Password:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" name="password" id="password" class="form-control"
+                                    placeholder="Enter your password" required>
+                            </div>
+                            <small class="form-text text-muted" id="help-username">Your password must have at least 8
+                                characters.</small>
+                        </div>
+
+                        <!--confirm-password-->
+                        <div class="form-group">
+                            <label for="password" class="">Confirm your password:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" name="password" id="password" class="form-control"
+                                    placeholder="Enter your password again" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Register now</button>
+                            <button type="reset" class="btn btn-secondary" data-dismiss="modal">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid users-title mx-0">
+        <div class="row col-12">
+            <span class="pl-3 mt-3">CloudMusic users</span>
+        </div>
+        <hr class="mt-0">
+    </div>
+
+    <!-- Principal - container -->
+    <div class="container-fluid mx-0 mt-4 mt-md-0">
+        <div class="row ">
+            <div class="sections d-flex justify-content-around col-12 ml-0 mr-0 my-3 p-0">
+                <div class="d-flex flex-column">
+                    <!-- Sections - users-->
+                    <div class="sections-users d-flex flex-column">
+                        <div class="everything d-flex justify-content-between mb-2">
+                            <i class="fas fa-search"></i><a href="#" class="sections-items"><span>Everything</span></a>
+                        </div>
+                        <div class="everything d-flex justify-content-between mb-2">
+                            <i class="fas fa-file-audio"></i><a href="#" class="sections-items"><span>Tracks</span></a>
+                        </div>
+                        <div class="everything d-flex justify-content-between mb-2 select-section rounded">
+                            <i class="fas fa-user-friends"></i><a href="#"
+                                class="sections-items"><span>People</span></a>
+                        </div>
+                        <div class="everything d-flex justify-content-between mb-2">
+                            <i class="fas fa-compact-disc"></i><a href="#"
+                                class="sections-items"><span>Albums</span></a>
+                        </div>
+                        <div class="everything d-flex justify-content-between">
+                            <i class="fas fa-th-list"></i><a href="#" class="sections-items"><span>Playlists</span></a>
+                        </div>
+                    </div>
+                    <hr class="">
+                    <!-- Filter - by - locations-->
+                    <div class="filter-locations mt-1 mx-2  p-0">
+                        <div class="title mb-3">
+                            <span class="locations-title">Filter by locations</span>
+                        </div>
+                        <div class="cities d-flex flex-column">
+                            <a href=""><span class="mb-1">Tucuman</span></a>
+                            <a href=""><span class="mb-1">Buenos Aires</span></a>
+                            <a href=""><span class="mb-1">New york</span></a>
+                            <a href=""><span class="mb-1">California</span></a>
+                            <a href=""><span class="mb-1">Chicago</span></a>
+                            <a href=""><span class="mb-1">San Francisco</span></a>
+                            <a href=""><span class="mb-1">Berlin</span></a>
+                            <a href=""><span>London</span></a>
+                        </div>
+                    </div>
+                    <hr class="delete-lg">
+
+                    <!-- Go - mobile -->
+                    <div class="d-flex flex-column mobile-xs delete-lg">
+                        <span>Go mobile</span>
+                        <img src="images/img-advertising/download-app.jpg" alt="download-app" width="100" height="50" class="mt-2">
+                    </div>
+
+                    <hr class="delete-lg">
+
+                    <!-- language -->
+                    <div class="legal delete-lg">
+                        <a href="#" class="language"><span>Language:</span>&nbsp;<span>English (US)</span></a>
+                    </div>
+
+                </div>
+
+                <!--Users-->
+                <div class="users col-6 pr-0 ">
+
+                    <div class="col-12 text-right text-md-left">
+                        <span class="users-title">Found +50M users</span>
+                    </div>
+                    <!-- list - profiles -->
+                    <div class="user-1 mt-4 d-flex justify-content-end justify-content-md-start">
+                        <img src="images/img-profiles/profile-1.jpg" alt="photo-profile" width="80" height="80">
+                        <div class="d-flex flex-column profile-details">
+                            <span class="ml-4 mb-2 text-center username">GENIUS90</span>
+                            <div class="statistics ml-4">
+                                <span class="mr-1 numbers-follows"><i class="fas fa-user-friends pr-1"></i>6,318</span>
+                                <span class="numbers-follows"><i class="fas fa-music pr-1"></i>8</span>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn btn-primary mt-2 py-0 px-1"><a href="#">Follow</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="col-12">
+
+                    <div class="user-2 mt-4 d-flex justify-content-end justify-content-md-start">
+                        <img src="images/img-profiles/profile-4.jpg" alt="photo-profile" width="80" height="80">
+                        <div class="d-flex flex-column profile-details">
+                            <span class="ml-4 mb-2 text-center username">LOLLIP0P</span>
+                            <div class="statistics ml-4">
+                                <span class="mr-1 numbers-follows"><i class="fas fa-user-friends pr-1"></i>4,525</span>
+                                <span class="numbers-follows"><i class="fas fa-music pr-1"></i>21</span>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn btn-primary mt-2 py-0 px-1"><a href="#">Follow</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="col-12">
+
+                    <div class="user-3 mt-4 d-flex justify-content-end justify-content-md-start">
+                        <img src="images/img-profiles/profile-3.jpg" alt="photo-profile" width="80" height="80">
+                        <div class="d-flex flex-column profile-details">
+                            <span class="ml-4 mb-2 text-center username">NINJA ROCK</span>
+                            <div class="statistics ml-4">
+                                <span class="mr-1 numbers-follows"><i class="fas fa-user-friends pr-1"></i>10,917</span>
+                                <span class="numbers-follows"><i class="fas fa-music pr-1"></i>32</span>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn btn-primary mt-2 py-0 px-1"><a href="#">Follow</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="col-12">
+
+                    <div class="user-4 mt-4 d-flex justify-content-end justify-content-md-start">
+                        <img src="images/img-profiles/profile-5.png" alt="photo-profile" width="80" height="80">
+                        <div class="d-flex flex-column profile-details">
+                            <span class="ml-4 mb-2 text-center username">RANDOM32</span>
+                            <div class="statistics ml-4">
+                                <span class="mr-1 numbers-follows"><i class="fas fa-user-friends pr-1"></i>2,725</span>
+                                <span class="numbers-follows"><i class="fas fa-music pr-1"></i>13</span>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn btn-primary mt-2 py-0 px-1"><a href="#">Follow</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="col-12">
+
+                    <div class="user-5 mt-4 d-flex justify-content-end justify-content-md-start">
+                        <img src="images/img-profiles/profile-7.jpg" alt="photo-profile" width="80" height="80">
+                        <div class="d-flex flex-column profile-details">
+                            <span class="ml-4 mb-2 text-center username">STARBOY</span>
+                            <div class="statistics ml-4">
+                                <span class="mr-1 numbers-follows"><i class="fas fa-user-friends pr-1"></i>3,596</span>
+                                <span class="numbers-follows"><i class="fas fa-music pr-1"></i>15</span>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn btn-primary mt-2 py-0 px-1"><a href="#">Follow</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="col-12">
+
+                </div>
+                <!-- Go - mobile -->
+                <div class="mobile d-flex flex-column col-2 p-0 m-0">
+                    <span class="text-right">Go mobile</span>
+                    <div class="d-flex justify-content-end">
+                        <img src="images/img-advertising/download-app.jpg" alt="download-app" width="100" height="50" class="mt-2">
+                    </div>
+
+                    <hr>
+
+                    <!-- language -->
+                    <div class="legal d-flex justify-content-end">
+                        <a href="#" class="language"><span>Language:</span>&nbsp;<span>English (US)</span></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="fixed-bottom mx-0">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Footer - player -->
+                <audio src="audio/Sexy-bitch.mp3" class="col-7 col-sm-8 col-md-9" controls></audio>
+                <div class="footer-profile col-5 col-sm-4 col-md-3 d-flex align-items-center">
+                    <!-- Img footer-profile -->
+                    <a href="#"><img src="images/img-songs/sexy-bitch.jpg" alt="sexy-bitch" width="40" height="40"
+                            class="flip-horizontal-bottom"></a>
+                    <!-- Footer-details -->
+                    <div class="footer-details d-flex flex-column ml-3 mr-5">
+                        <span class="song-title align-self-start font-weight-light">David-Guetta</span>
+                        <span class="song-name align-self-start font-weight-light ">Sexy bitch</span>
+                    </div>
+                    <!-- Footer-icons -->
+                    <div class="footer-icons ml-lg-5 ml-lg-4">
+                        <span><i class="fas fa-heart mr-2"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Pooper -->
+    <script src="js/popper.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
