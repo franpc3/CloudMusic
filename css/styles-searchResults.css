@@ -191,6 +191,16 @@ USERS
 .interactions-buttons {
     background-color: #ECEDEF;
     font-size: .7rem;
+    opacity: .7;
+}
+
+.fa-play-circle {
+    font-size: 5rem;
+}
+
+.interactions-buttons:hover {
+    opacity: 1;
+    filter: saturate(4);
 }
 
 .interactions-buttons .fa-heart {
